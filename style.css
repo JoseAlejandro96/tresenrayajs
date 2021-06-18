@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.board{
+    max-width: 450px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+}
+.box{
+    min-width: 150px;
+    min-height: 150px;
+    border: 1px solid brown;
+    border-radius: 50%;
+    line-height: 100%;
+    font-size: 150px;
+    text-align: center;
+    background-color: white;
+}
+
+.circle{
+    
+}
+.cruz{
+
+}
