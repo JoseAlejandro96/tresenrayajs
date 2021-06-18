@@ -1,35 +1,47 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color: black;
+body {
+  background-color: black;
 }
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  color: brown;
 }
-.board{
-    max-width: 450px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 0 auto;
+.container > h1 {
+  font-size: 3rem;
+  padding: 10px 20px;
 }
-.box{
-    min-width: 150px;
-    min-height: 150px;
-    border: 1px solid brown;
-    border-radius: 50%;
-    line-height: 100%;
-    font-size: 150px;
-    text-align: center;
-    background-color: white;
+.board {
+  max-width: 450px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  color: blueviolet;
+}
+.box {
+  min-width: 150px;
+  min-height: 150px;
+  border: 1px solid brown;
+  border-radius: 50%;
+  line-height: 100%;
+  font-size: 140px;
+  text-align: center;
+  background-color: white;
 }
 
-.circle{
-    
+.circle {
 }
-.cruz{
+.cruz {
+}
 
+.result {
+  color: white;
+}
+.result > p {
+  font-size: 2rem;
 }

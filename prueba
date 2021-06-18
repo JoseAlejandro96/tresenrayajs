@@ -1,0 +1,15 @@
+{
+    "pregunta": "how i ----- your mother?",
+    "posiblesRespuestas": ["eat", "Run", "meet"]
+}
+
+{
+    "pregunta": "how i ----- your mother?",
+    "respuesta": "meet"
+}
+
+{
+    "pregunta": "how i ----- your mother?",
+    "respuesta": "meet",
+    "esCorrecta": "true"
+}
