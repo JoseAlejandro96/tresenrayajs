@@ -14,6 +14,8 @@ var boxes = document.getElementsByClassName("box");
 
 var someoneWin = false;
 
+var count = 0;
+
 function chechIfSomeoneWin(){
     
     if(boxes[0].innerHTML == "X" && boxes[1].innerHTML == "X" && boxes[2].innerHTML == "X"){
@@ -100,7 +102,7 @@ function stopGame(){
 }
 
 function game(nameOfTheBox){
-    console.log(nameOfTheBox);
+    count++;
     if(isPlayer1Playing){
         boxes[nameOfTheBox-1].innerHTML = "X";
         isPlayer1Playing = false;
@@ -114,6 +116,11 @@ function game(nameOfTheBox){
     chechIfSomeoneWin()
     if(someoneWin){
         stopGame();
+    }
+
+    if(count == 9 && someoneWin == false){
+        document.getElementById("resultado").innerHTML = "Es un empate";
+        someoneWin = true;
     }
 
 }

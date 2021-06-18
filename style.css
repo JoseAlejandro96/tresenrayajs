@@ -21,6 +21,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin: 0 auto;
+  gap: 10px;
   color: blueviolet;
 }
 .box {
@@ -31,7 +32,7 @@ body {
   line-height: 100%;
   font-size: 140px;
   text-align: center;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 .circle {
